@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* 
-  Paleta de cores
-  verde: #49a09d
-  lilás: #5f2c82
+  Paleta de cores:
+    #BD6F30
+    #D6D0CF
 */
 
 * {
@@ -17,7 +17,7 @@
 html, body {
   width: 100vw;
   height: 100vh;
-  background-color: #5f2c82;
+  background-color: #BD6F30;
 }
 
 main {
@@ -38,11 +38,14 @@ section#login {
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
 }
 
 section#login > div#imagem {
   display: block;
-  background: #5f2c82 url("../imagens/door.jpg") center center no-repeat;
+  background: #BD6F30 url("../imagens/door.jpg") center center no-repeat;
   background-size: cover;
   height: 200px;
 }
